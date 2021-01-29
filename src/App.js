@@ -1,6 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
-
 import ProfileCardComponentScreen from './profile-card-component/ProfileCardComponentScreen'
 
 function App() {
