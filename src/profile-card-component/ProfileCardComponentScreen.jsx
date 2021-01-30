@@ -38,10 +38,6 @@ const GlobalStyle = createGlobalStyle`
         fonr-weight: 300;
         font-style: normal;
     }
-
-    * {
-        font-family: 'Kumbh Sans';
-    }
 `
 
 const Screen = styled.div`
@@ -53,7 +49,7 @@ const Screen = styled.div`
 
     background-color: ${props => props.theme.colors.darkcyan};
     background-image: url(${bgPatternTop}), url(${bgPatternBottom});
-    background-position: top left, bottom right;
+    background-position: -300px -300px, 650px 650px;
     background-repeat: no-repeat, no-repeat;
 `
 

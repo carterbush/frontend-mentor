@@ -15,6 +15,7 @@ const Value = styled.div`
 
 const Label = styled.div`
     color: ${props => props.theme.colors.darkgrey};
+    font-size: 12px;
 `
 
 const Stat = ({ value, label }) => (
@@ -71,7 +72,7 @@ const Stats = styled.div`
 `
 
 const NameAge = styled.div`
-    margin: 20px 0 10px 0;
+    margin: 20px 0 5px 0;
 `
 
 const Name = styled.span`
@@ -85,6 +86,7 @@ const Age = styled.span`
 
 const Location = styled.div`
     color: ${props => props.theme.colors.darkgrey};
+    font-size: 16px;
 `
 
 const ProfileCardComponent = ({
