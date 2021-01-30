@@ -4,9 +4,9 @@ import ProfileCardComponent from './ProfileCardComponent'
 
 import bgPatternBottom from './images/bg-pattern-bottom.svg'
 import bgPatternTop from './images/bg-pattern-top.svg'
-import kumbhSansRegular from './fonts/KumbhSans-Regular.ttf'
-import kumbhSansBold from './fonts/KumbhSans-Bold.ttf'
-import kumbhSansLight from './fonts/KumbhSans-Light.ttf'
+import kumbhSansRegular from '../fonts/KumbhSans-Regular.ttf'
+import kumbhSansBold from '../fonts/KumbhSans-Bold.ttf'
+import kumbhSansLight from '../fonts/KumbhSans-Light.ttf'
 
 const theme = {
     colors: {
