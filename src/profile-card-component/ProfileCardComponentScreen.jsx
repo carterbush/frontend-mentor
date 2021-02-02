@@ -21,21 +21,21 @@ const GlobalStyle = createGlobalStyle`
     @font-face {
         font-family: 'Kumbh Sans';
         src: url(${kumbhSansRegular});
-        fonr-weight: 400;
+        font-weight: 400;
         font-style: normal;
     }
 
     @font-face {
         font-family: 'Kumbh Sans';
         src: url(${kumbhSansBold});
-        fonr-weight: 700;
+        font-weight: 700;
         font-style: normal;
     }
 
     @font-face {
         font-family: 'Kumbh Sans';
         src: url(${kumbhSansLight});
-        fonr-weight: 300;
+        font-weight: 300;
         font-style: normal;
     }
 `
